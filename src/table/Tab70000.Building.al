@@ -7,9 +7,9 @@ table 70000 "Building"
 
     fields
     {
-        field(1; "Location"; Code[20])
+        field(1; "Location Code"; Code[20])
         {
-            Caption = 'Location';
+            Caption = 'Location Code';
             TableRelation = Location;   //foreign key to link the building (campus) table to the location table
         }
         field(2; "Code"; Code[20])      //building code which is the primary key of this table
@@ -43,7 +43,7 @@ table 70000 "Building"
     }
     keys        //specifies that the primary key of this table is a compound of 2 tables
     {
-        key(key1; "Location", "Code")
+        key(key1; "Location Code", "Code")
         {
             Clustered = true;
         }
