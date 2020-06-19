@@ -7,5 +7,7 @@
 .vscode/
 #Symbols folder
 .alpackages/
+#App file
+*.app
 
 # End of https://www.gitignore.io/api/al
