@@ -17,11 +17,12 @@ page 70002 "Major"
                 {
                     ApplicationArea = All;
                 }
-                field(Duration; Duration)
+
+                field(Name; Name)
                 {
                     ApplicationArea = All;
                 }
-                field(Name; Name)
+                field(Duration; Duration)
                 {
                     ApplicationArea = All;
                 }

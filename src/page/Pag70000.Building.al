@@ -1,4 +1,4 @@
-page 7000 "Building"
+page 70000 "Building"
 {
 
     ApplicationArea = All;
@@ -13,7 +13,7 @@ page 7000 "Building"
         {
             repeater(General)
             {
-                field("GPS Coodinates"; "GPS Coodinates")
+                field(Code; Code)
                 {
                     ApplicationArea = All;
                 }
@@ -21,19 +21,22 @@ page 7000 "Building"
                 {
                     ApplicationArea = All;
                 }
-                field("No.of Rooms"; "No.of Rooms")
-                {
-                    ApplicationArea = All;
-                }
-                field(Code; Code)
-                {
-                    ApplicationArea = All;
-                }
+
                 field(Name; Name)
                 {
                     ApplicationArea = All;
                 }
+                field("No.of Rooms"; "No.of Rooms")
+                {
+                    ApplicationArea = All;
+                }
+
                 field(Type; Type)
+                {
+                    ApplicationArea = All;
+                }
+
+                field("GPS Coodinates"; "GPS Coodinates")
                 {
                     ApplicationArea = All;
                 }

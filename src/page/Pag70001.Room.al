@@ -13,6 +13,10 @@ page 70001 "Room"
         {
             repeater(General)
             {
+                field(Code; Code)
+                {
+                    ApplicationArea = All;
+                }
                 field("Building Code"; "Building Code")
                 {
                     ApplicationArea = All;
@@ -25,10 +29,7 @@ page 70001 "Room"
                 {
                     ApplicationArea = All;
                 }
-                field(Code; Code)
-                {
-                    ApplicationArea = All;
-                }
+
                 field(Floor; Floor)
                 {
                     ApplicationArea = All;

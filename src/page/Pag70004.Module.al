@@ -17,14 +17,15 @@ page 70004 "Module"
                 {
                     ApplicationArea = All;
                 }
-                field(Description; Description)
-                {
-                    ApplicationArea = All;
-                }
                 field(Name; Name)
                 {
                     ApplicationArea = All;
                 }
+                field(Description; Description)
+                {
+                    ApplicationArea = All;
+                }
+
                 field(Weighing; Weighing)
                 {
                     ApplicationArea = All;

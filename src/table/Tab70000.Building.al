@@ -10,11 +10,12 @@ table 70000 "Building"
         field(1; "Location Code"; Code[20])
         {
             Caption = 'Location Code';
-            TableRelation = Location;   //foreign key to link the building (campus) table to the location table
+            TableRelation = Location;   //foreign key to link the building (campus) table to the location 
         }
         field(2; "Code"; Code[20])      //building code which is the primary key of this table
         {
             Caption = 'Code';
+
         }
         field(3; "Name"; Code[50])
         {
@@ -34,10 +35,8 @@ table 70000 "Building"
             FieldClass = FlowField;
             Editable = false;
 
-            //count No.of rooms and filter on bulding pk fields
-            //CalcFormula = 
-
-
+            //Count no of rooms in each building
+            CalcFormula = count (Room where("Building Code" = field(Code)));
 
         }
     }

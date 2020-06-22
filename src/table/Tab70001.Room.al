@@ -22,6 +22,7 @@ table 70001 "Room"
         field(4; "Floor"; Integer)
         {
             Caption = 'Floor';
+
         }
 
         field(5; "Type"; Enum "Room Types")
