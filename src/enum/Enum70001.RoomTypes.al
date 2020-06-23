@@ -26,8 +26,13 @@ enum 70001 "Room Types"
     {
         Caption = 'Computer Room';
     }
+
     value(6; "Sports")
     {
         Caption = 'Sports';
+    }
+    value(7; "Reception")
+    {
+        Caption = 'Reception';
     }
 }

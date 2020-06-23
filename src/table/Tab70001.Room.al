@@ -13,13 +13,14 @@ table 70001 "Room"
         field(2; "Building Code"; Code[20])      //foreign key to link the room table to the location table and the building table
         {
             Caption = 'Building Code';
-            TableRelation = Building;
+            TableRelation = "Building".Code where("Location Code" = field("Location Code")); //Filter the building based on the location
+
         }
         field(3; "Code"; Code[20])      //primary key for this table
         {
             Caption = 'Code';
         }
-        field(4; "Floor"; Integer)
+        field(4; "Floor"; Text[30])
         {
             Caption = 'Floor';
 

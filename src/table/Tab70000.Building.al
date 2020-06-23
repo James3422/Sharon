@@ -17,7 +17,7 @@ table 70000 "Building"
             Caption = 'Code';
 
         }
-        field(3; "Name"; Code[50])
+        field(3; "Name"; Text[50])
         {
             Caption = 'Name';
         }
@@ -36,7 +36,7 @@ table 70000 "Building"
             Editable = false;
 
             //Count no of rooms in each building
-            CalcFormula = count (Room where("Building Code" = field(Code)));
+            CalcFormula = count (Room where("Building Code" = field(Code))); //still need to work on to get it working properly
 
         }
     }

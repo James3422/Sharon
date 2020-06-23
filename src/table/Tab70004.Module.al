@@ -4,16 +4,16 @@ table 70004 "Module"
 
     fields
     {
-        field(1; "Course Code"; Code[50])
+        field(1; "Course Code"; Code[20])
         {
             Caption = 'Course Code';
         }
-        field(2; "Name"; Code[50])
+        field(2; "Name"; Text[50])
         {
             Caption = 'Name';
         }
 
-        field(3; "Description"; Code[20])
+        field(3; "Description"; Text[100])
         {
             Caption = 'Description';
         }

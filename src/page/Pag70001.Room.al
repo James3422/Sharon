@@ -17,11 +17,12 @@ page 70001 "Room"
                 {
                     ApplicationArea = All;
                 }
-                field("Building Code"; "Building Code")
+
+                field("Location Code"; "Location Code")
                 {
                     ApplicationArea = All;
                 }
-                field("Location Code"; "Location Code")
+                field("Building Code"; "Building Code")
                 {
                     ApplicationArea = All;
                 }

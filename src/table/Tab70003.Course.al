@@ -4,20 +4,20 @@ table 70003 "Course"
 
     fields
     {
-        field(1; "Code"; Code[50])
+        field(1; "Code"; Code[20])
         {
             Caption = 'Code';
         }
 
-        field(2; "Name"; Code[20])
+        field(2; "Name"; Text[50])
         {
             Caption = 'Name';
         }
-        field(3; "Description"; Code[20])
+        field(3; "Description"; Text[100])
         {
             Caption = 'Description';
         }
-        field(4; "Search Terms"; Code[20])
+        field(4; "Search Terms"; Text[50])
         {
             Caption = 'Search Terms';
         }
@@ -25,7 +25,7 @@ table 70003 "Course"
         {
             Caption = 'Credits Available';
         }
-        field(6; "Duration"; Integer)       //is it a semester module or a year module?
+        field(6; "Duration"; Text[20])       //might need to have an option type of some sort or a subtable
         {
             Caption = 'Duration';
         }
